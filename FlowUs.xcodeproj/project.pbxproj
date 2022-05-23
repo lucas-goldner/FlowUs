@@ -15,6 +15,8 @@
 		4D112F5F27F3BBB2002957E8 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4D112F5E27F3BBB2002957E8 /* .swiftlint.yml */; };
 		4D28C77F280613B900F3A2AE /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28C77E280613B900F3A2AE /* Buttons.swift */; };
 		4D28C7812806360C00F3A2AE /* TextInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28C7802806360C00F3A2AE /* TextInputs.swift */; };
+		4D2FAD21282DAA2D00492033 /* CloudFunctionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FAD20282DAA2D00492033 /* CloudFunctionsService.swift */; };
+		4D2FAD23282DAA3D00492033 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FAD22282DAA3D00492033 /* StorageService.swift */; };
 		4D44F56227EBD55400FE8CCB /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44F56127EBD55400FE8CCB /* Navigator.swift */; };
 		4D510105280C6EE200BE3988 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D510104280C6EE200BE3988 /* Constants.swift */; };
 		4D510113280C753500BE3988 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D510112280C753500BE3988 /* Configuration.swift */; };
@@ -108,6 +110,8 @@
 		4D112F5E27F3BBB2002957E8 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4D28C77E280613B900F3A2AE /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		4D28C7802806360C00F3A2AE /* TextInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputs.swift; sourceTree = "<group>"; };
+		4D2FAD20282DAA2D00492033 /* CloudFunctionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFunctionsService.swift; sourceTree = "<group>"; };
+		4D2FAD22282DAA3D00492033 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		4D44F56127EBD55400FE8CCB /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		4D510104280C6EE200BE3988 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D510112280C753500BE3988 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
@@ -347,6 +351,8 @@
 			children = (
 				4DBCEEB62829AFC40027D235 /* FirestoreService.swift */,
 				4DBCEEB82829B0360027D235 /* AuthService.swift */,
+				4D2FAD20282DAA2D00492033 /* CloudFunctionsService.swift */,
+				4D2FAD22282DAA3D00492033 /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -701,6 +707,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDCC2F6281890F300FD7EB5 /* MagicNumbersInput.swift in Sources */,
+				4D2FAD23282DAA3D00492033 /* StorageService.swift in Sources */,
 				4DE90A5C2820718D0096FE22 /* RegisterOO.swift in Sources */,
 				4D58FFF82809F8B3002337AE /* CountryInput.swift in Sources */,
 				4D5141692804D7EC00D37C33 /* Typography.swift in Sources */,
@@ -722,6 +729,7 @@
 				4DDF4AFB280E14B4001A6D51 /* BackBar.swift in Sources */,
 				4D796D7A2803986E0020FF26 /* Extensions.swift in Sources */,
 				4D5141652804D2A400D37C33 /* Previews.swift in Sources */,
+				4D2FAD21282DAA2D00492033 /* CloudFunctionsService.swift in Sources */,
 				4D5F6E322808C8220064F259 /* KeyboardAware.swift in Sources */,
 				4DBDB0CA26A4D85300B01255 /* ContentView.swift in Sources */,
 				4DB61A59280A392D00D900C0 /* RadioButtonOO.swift in Sources */,

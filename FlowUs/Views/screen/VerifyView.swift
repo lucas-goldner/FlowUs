@@ -12,6 +12,7 @@ import UIPilot
 struct VerifyView: View {
     @EnvironmentObject var pilot: UIPilot<AppRoute>
     @StateObject var data: VerifyOO = .init()
+    let functionsService: CloudFunctionsService = .init()
 
     private func printNumbers() {
         print(data.getCurrentNumbers())
@@ -49,7 +50,7 @@ struct VerifyView: View {
                             .padding(.top, -72)
                             .padding(.leading, 40)
                             .rotationEffect(Angle(degrees: -15))
-                        PrimaryButton(action: printNumbers,
+                        PrimaryButton(action: functionsService.getHelloWorld,
                                       text: "register.step.two".l10n())
                             .frame(width: UIScreen.screenWidth)
                     }
