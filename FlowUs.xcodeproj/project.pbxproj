@@ -81,6 +81,7 @@
 		4DE90A602820779A0096FE22 /* LoginDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90A5F2820779A0096FE22 /* LoginDO.swift */; };
 		4DE90A6228231A770096FE22 /* VerifyOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90A6128231A770096FE22 /* VerifyOO.swift */; };
 		4DE90A652825DF360096FE22 /* OffsettableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90A642825DF360096FE22 /* OffsettableScrollView.swift */; };
+		4DF089D8283D79A500E0578F /* DynamicLinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF089D7283D79A500E0578F /* DynamicLinkService.swift */; };
 		4DFC3F072812176200CAE539 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC3F062812176200CAE539 /* StatusBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -168,6 +169,7 @@
 		4DE90A6128231A770096FE22 /* VerifyOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOO.swift; sourceTree = "<group>"; };
 		4DE90A632825D41B0096FE22 /* FlowUs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowUs.entitlements; sourceTree = "<group>"; };
 		4DE90A642825DF360096FE22 /* OffsettableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsettableScrollView.swift; sourceTree = "<group>"; };
+		4DF089D7283D79A500E0578F /* DynamicLinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkService.swift; sourceTree = "<group>"; };
 		4DFC3F062812176200CAE539 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -353,6 +355,7 @@
 				4DBCEEB82829B0360027D235 /* AuthService.swift */,
 				4D2FAD20282DAA2D00492033 /* CloudFunctionsService.swift */,
 				4D2FAD22282DAA3D00492033 /* StorageService.swift */,
+				4DF089D7283D79A500E0578F /* DynamicLinkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -735,6 +738,7 @@
 				4DB61A59280A392D00D900C0 /* RadioButtonOO.swift in Sources */,
 				4DB61A55280A369100D900C0 /* RadioButtonGroup.swift in Sources */,
 				4D7720FA2815FA0700C5812F /* VerifyView.swift in Sources */,
+				4DF089D8283D79A500E0578F /* DynamicLinkService.swift in Sources */,
 				4D796D39280370140020FF26 /* GlasmorphicCard.swift in Sources */,
 				4DFC3F072812176200CAE539 /* StatusBar.swift in Sources */,
 				4DE90A5E282072760096FE22 /* RegisterDO.swift in Sources */,

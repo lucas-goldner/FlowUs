@@ -11,7 +11,7 @@ enum AppRoute: Equatable {
     case Welcome
     case Login
     case Register
-    case Verify
+    case Verify(code: String)
 }
 
 enum MagicNumberField {

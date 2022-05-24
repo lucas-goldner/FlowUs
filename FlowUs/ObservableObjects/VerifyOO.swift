@@ -24,6 +24,13 @@ class VerifyOO: ObservableObject {
         }
     }
 
+    func fillFields(code: String) {
+        for i in 0 ... 5 {
+            let number: String = code[i]
+            magicNumberFields[i] = number
+        }
+    }
+
     func getCurrentNumbers() -> Int {
         return Int(magicNumberFields.joined()) ?? 0
     }

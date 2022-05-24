@@ -15,7 +15,7 @@ struct RegisterView: View {
     @EnvironmentObject var pilot: UIPilot<AppRoute>
 
     private func navigateToVerify() {
-        pilot.push(.Verify)
+        pilot.push(.Verify(code: ""))
     }
 
     var body: some View {
@@ -40,7 +40,7 @@ struct RegisterView: View {
                     action: navigateToVerify,
                     text: "register.step.one".l10n(),
                     shadowsEnabled: false)
-                .accessibilityIdentifier("Verify")
+                    .accessibilityIdentifier("Verify")
             }
             .padding(.top, 24)
             .padding(.bottom, 48)
@@ -193,8 +193,8 @@ struct RegisterPassword: View {
     }
 }
 
-//struct RegisterView_Previews: PreviewProvider {
+// struct RegisterView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        DefaultPreview(content: RegisterView())
 //    }
-//}
+// }

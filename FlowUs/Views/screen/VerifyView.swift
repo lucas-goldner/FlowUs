@@ -13,6 +13,7 @@ struct VerifyView: View {
     @EnvironmentObject var pilot: UIPilot<AppRoute>
     @StateObject var data: VerifyOO = .init()
     let functionsService: CloudFunctionsService = .init()
+    let code: String
 
     private func printNumbers() {
         print(data.getCurrentNumbers())
@@ -56,6 +57,10 @@ struct VerifyView: View {
                     }
                 }
             }.frame(width: UIScreen.screenWidth)
+        }.onAppear {
+            if code != "" {
+                data.fillFields(code: code)
+            }
         }
     }
 }
